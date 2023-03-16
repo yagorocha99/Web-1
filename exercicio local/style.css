@@ -1,0 +1,28 @@
+h1{
+	font-size: 64px;
+	text-align: center;
+}
+h2{
+	font-size: 32px;
+}
+p{
+	font-size: 20px;
+}
+figure{
+	text-align: center;
+}
+figcaption{
+	text-align: center;
+}
+body{
+	font-family: monospace;
+}
+li{
+	font-size: 20px;
+}
+div{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
