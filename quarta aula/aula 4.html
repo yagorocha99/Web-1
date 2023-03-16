@@ -1,67 +1,64 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Layout básico - 1 coluna</title>
-		<style>
-			.topo{
-				border: 1px solid darkblue;
-				text-align: center;
-				background-color: #ccc;
-			}
-			.conteudo{
-				border: 1px solid darkmagenta;
-				padding: 20px;
-			}
-			.rodape{
-				border: 1px solid darkolivegreen;
-				text-align: center;
-			}
-			.container{
-				padding: 10px;
-				border: 1px solid darkcyan;
-			}
-			.menu{
-				margin: 0px 20px;
-				background-color: #e1e0e0;
-				padding: 10px;
-				border-radius: 2px;
-				text-align: center;
-			}
-			.menu a{
-				text-decoration: none;
-				padding: 0px 10px;
-			}
-			.menu a:hover{
-				background-color: cornsilk;
-				/*border-radius: 50%;*/
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="topo">
-				<!-- div = divisão que representa o cabeçalho/header do site -->
-				TOPO
-				<div class="menu">
-					<a href=#>Login</a>
-					<a href=#>Sair</a>
-				</div>
-			</div>
-			<div class="conteudo">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-			<div class="rodape">
-				<a href=#>Desenvolvido por empresa SA</a>
-				<a href=#>Mapa do site</a>
-				<a href=#>Saiba mais</a>
-			</div>
-		</div>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout básico - 1 coluna</title>
+    <style>
+    .topo {
+        border: 1px solid darkblue;
+        text-align: center;
+        background-color: #ccc;
+    }
+    .conteudo{
+        border: 1px solid darkmagenta;
+    }
+    .menu{
+        margin: 0px 20px;
+        background-color: #e1e0e0;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .menu a{
+        /* regra por condição: somente os links dentro
+        do menu recebem esse estilo */
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+    .menu a:hover{
+        background-color: cornsilk;
+        /*border-radius: 50%;*/
+    }
+    .rodape{
+        border: 1px solid darkolivegreen;
+    }
+    .container{
+        padding: 10px;
+        border: 1px solid darkcyan;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+	    <div class="topo">
+	        <!-- div - divisão  representa o cabeçalho/header da página -->
+	        <h1>TOPO</h1>
+	        <div class="menu">
+	            <a href="#">Login</a>
+	            <a href="#">Sair</a>
+	        </div>
+	    </div>
+	    <div class="conteudo">
+	        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id voluptas laboriosam veniam ratione vero. Eveniet officiis perspiciatis soluta vitae doloribus aperiam modi nisi, sequi magnam tempora? Suscipit molestiae earum dignissimos?</p>
+
+	        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quidem, nobis magnam assumenda laborum rem voluptas ullam minima quis doloribus eos dicta incidunt tenetur porro necessitatibus illum quasi odit. Incidunt.</p>
+
+	        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda error possimus quaerat inventore dolore ullam nulla, sequi sunt similique numquam, autem adipisci voluptatem repudiandae fuga odit reprehenderit, quo ut.</p>
+	    </div>
+	    <div class="rodape" style="text-align:center">
+	        <a href="#">Desenvolvido por empresa SA</a>
+	        <a href="#">Mapa do site</a>
+	        <a href="#">Saiba mais</a>
+	    </div>
+    </div> <!-- fechamento da container -->
+</body>
 </html>
